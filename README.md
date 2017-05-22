@@ -1,6 +1,7 @@
 # prbd
 Probes media for codec info and Analyzes for possible errors.
 
+you will need `ffmpeg` and `ffprobe`. you can download these from here: http://ffmpeg.zeranoe.com/builds/  
 
 setup your go path  
 run `go build`
