@@ -11,7 +11,13 @@ run `go build`
 https://github.com/jayrox/prbd/tree/master/build 
 
 # Run
-`prbd -dir /path/to/media/library`
+`prbd -dir /path/to/media/library` # Will recursively scan specified directory
+
+`prbd -r` # Will scan the path in the `radarr_moviefile_path` env variable
+
+`prbd -s` # Will scan the path in the `sonarr_episodefile_path` env variable
+
+add a `-log /path/to/reports` and prbd will output the reports to a log directory. useful for building reports and quickly finding media with specific codecs or codec levels.
 
 ----
 # Output
